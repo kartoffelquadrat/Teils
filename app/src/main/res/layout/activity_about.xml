@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="eu.kartoffelquadrat.openglexplorer.AboutActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="About"
+            android:textColor="@android:color/white"
+            android:textSize="40pt"></TextView>
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:src="@drawable/app_icon"
+            android:tag="trueLayoutTop"></ImageView>
+
+        <ScrollView
+            android:id="@+id/textAreaScroller"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:layout_x="0px"
+            android:layout_y="25px"
+            android:scrollbars="vertical">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Once upon a time there was a very smart person who was said to be capable of solving any riddle in almost no time. Meanwhile, in a land far away called TEILS, evil forces stole a master key and thereby turned it's beautifully flat and symmetric countryside into a cliffy and hostile debris field. It was then, when the habitants remembered the tales of that incredible person. So they appealed to that brilliant mind, for it would be to only one able to understand the forces that brought such chaos. They hoped it would free them all from their ongoing disorientation.\nAnd so it came to be, that YOU have been chosen for the quest of overcoming the evil triangular influencers. Restore the lost master key and bring back peace and symmetry to the land!\nBut beware - the influencers are savvy and will notice when they've been tampered with. This will happen every time you switch between two of them. Your number of actions is thus limited and must be used wisely!\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeils v0.5.2\n(c) M.Schiedermeier, 2019"
+                android:textColor="@android:color/white"
+                android:textSize="12pt" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

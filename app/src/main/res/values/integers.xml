@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Stores default level value (0 - 4 equals tutorial to insane) -->
+    <integer name="default_level">0</integer>
+    <!--Stores default probability that an influencer is connected to a cell-->
+    <integer name="default_influencer_prob">10</integer>
+    <integer name="default_action_limit">64</integer>
+</resources>
