@@ -34,7 +34,7 @@ This repo hosts the game apk. There are two simple ways to install the file:
 
 ### Installation via browser
 
-Access this web page with your android device, then click **[this link](https://kartoffelquadrat.eu:5050/maex/teils/raw/master/binary/teils.apk)**.
+Access this web page with your android device, then click **[this link](https://github.com/kartoffelquadrat/Teils/blob/master/binary/teils.apk)**.
 
 *Note: Depending on your device settings you may see a popup to confirm the installation from unknown sources. This happens because you install from a source other than the official google play store.*
 
