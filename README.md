@@ -44,7 +44,7 @@ You can also sideload the game on your android, using a computer:
 
  1. Connect your device via USB
  2. Enable USB debugging on your device
- 3. Download the [game apk](https://kartoffelquadrat.eu:5050/maex/teils/raw/master/binary/teils.apk).
+ 3. Download the [game apk](https://github.com/kartoffelquadrat/Teils/blob/master/binary/teils.apk).
  4. Open a terminal and run ``` adb install teils.apk```
 
 ## Compile from sources
